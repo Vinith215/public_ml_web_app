@@ -14,11 +14,11 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-diabetes_model = pickle.load(open(f'/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/guntu/OneDrive/Desktop/Multiple Disease Prediction System/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open(f'/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('C:/Users/guntu/OneDrive/Desktop/Multiple Disease Prediction System/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open(f'/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('C:/Users/guntu/OneDrive/Desktop/Multiple Disease Prediction System/parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
